@@ -162,7 +162,6 @@ w('detail.html', top(SEARCH, R_USER, logo=WM) + '\n<div class="shell">\n' + nav(
       <span class="mt mono">Q-2026-00417</span></div>
     <div style="font-size:21px; font-weight:600; color:var(--ink); line-height:1.4;">업무무관가지급금 인정이자 계산 기준일 문의</div>
     <div class="tx">기중에 가지급금이 변동된 경우 인정이자 계산의 기준일을 어떻게 잡는지 실무 기준이 궁금합니다. 변동일 기준으로 안분하는 것이 맞는지 확인 부탁드립니다.</div>
-    <div class="chips"><span class="chip">#인정이자</span><span class="chip">#가지급금</span><span class="chip">#기중변동</span></div>
     <div class="meta"><span class="chip">좋아요 <span class="mono">4</span></span><span class="chip">스크랩</span>
       <span class="mt">조회 <span class="mono">342</span> · 답변 <span class="mono">3</span> · 댓글 <span class="mono">5</span></span></div>
   </section>
