@@ -1,0 +1,66 @@
+{
+  "attachments": {},
+  "createdOnFiles": {
+    "at": "2026-11-15T07:20:00Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "faces": {
+    "jetbrains-mono": {
+      "family": "JetBrains Mono",
+      "href": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+    },
+    "noto-sans-kr": {
+      "family": "Noto Sans KR",
+      "href": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap"
+    }
+  },
+  "format": {
+    "shared": [
+      "project/deck.css"
+    ],
+    "v": 1
+  },
+  "lists": "css",
+  "order": [
+    "cover",
+    "agenda",
+    "req",
+    "principles",
+    "identity",
+    "core-loop",
+    "ia",
+    "ui-home",
+    "ui-detail",
+    "ui-write",
+    "ui-board",
+    "ui-mypage",
+    "ui-admin",
+    "ui-admin-users",
+    "risk",
+    "roadmap",
+    "decisions",
+    "issue-app",
+    "support"
+  ],
+  "sections": {
+    "s1": {
+      "description": "왜 필요한가와 플랫폼 아이덴티티",
+      "start": "cover"
+    },
+    "s2": {
+      "description": "핵심 요소 — 닉네임과 직급, 상호작용과 리더보드",
+      "start": "identity"
+    },
+    "s3": {
+      "description": "화면설계와 운영 전제",
+      "start": "ia"
+    },
+    "s4": {
+      "description": "일정과 의사결정 요청",
+      "start": "roadmap"
+    }
+  },
+  "title": "삼일회계법인 TAX Q&A (TQA) 기획안 — 파트너 보고",
+  "v": 5
+}
