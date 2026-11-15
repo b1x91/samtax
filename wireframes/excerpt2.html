@@ -1,9 +1,9 @@
 <!doctype html><html lang="ko"><head><meta charset="utf-8"><link rel="stylesheet" href="app.css">
 <style>
 html,body{ width:1408px; height:560px; background:var(--bg); }
-.wrap{ padding:0; display:flex; gap:22px; align-items:flex-start; }
+.wrap{ padding:0; display:flex; gap:22px; align-items:stretch; }
 .lft{ flex:1.32; display:flex; flex-direction:column; gap:7px; }
-.rgt{ flex:1; }
+.rgt{ flex:1; display:flex; }
 .who{ display:flex; align-items:center; gap:9px; }
 .q-card{ padding:14px 22px 12px; gap:9px; }
 .q-card .qtitle{ font-size:18px; }
@@ -11,7 +11,7 @@ html,body{ width:1408px; height:560px; background:var(--bg); }
 .qact{ padding:9px 0 0 0; margin-top:0; }
 .a-card{ padding:8px 16px 7px; gap:5px; }
 .a-card .src, .a-card .field{ padding:6px 11px; }
-.modal{ background:#fff; border:1px solid rgba(18,26,38,0.16); border-radius:0; padding:16px 18px; display:flex; flex-direction:column; gap:12px; }
+.modal{ background:#fff; border:1px solid rgba(18,26,38,0.16); border-radius:0; padding:16px 18px; display:flex; flex-direction:column; gap:12px; flex:1; }
 .mrow{ display:flex; align-items:center; gap:10px; padding:8px 0 0 0; border-top:1px solid #EDE9DF; }
 .mrow:first-of-type{ border-top:none; padding-top:0; }
 .mrow .t{ font-size:13.5px; color:var(--txt); flex:1; }
@@ -89,7 +89,7 @@ html,body{ width:1408px; height:560px; background:var(--bg); }
         <div class="stat" style="padding:9px 12px;"><span class="k">받은 좋아요</span><span class="v" style="font-size:19px;">412</span></div>
         <div class="stat" style="padding:9px 12px;"><span class="k">이번 주 순위</span><span class="v" style="font-size:19px;">2위</span></div>
       </div>
-      <div style="font-size:13px; font-weight:600; color:var(--ink); padding:2px 0 0 0;">최근 글 <span class="mono">5</span></div>
+      <div style="font-size:13px; font-weight:600; color:var(--ink); padding:2px 0 0 0; margin-top:auto;">최근 글 <span class="mono">5</span></div>
       <div class="mrow"><span class="chip a">근거</span><span class="t">인정이자 계산 기준일</span><span class="mt mono">12</span></div>
       <div class="mrow"><span class="chip">경험</span><span class="t">전자문서 원본 제출 범위</span><span class="mt mono">9</span></div>
       <div class="mrow"><span class="chip a">근거</span><span class="t">특수관계 소멸 시 인정이자 처리</span><span class="mt mono">7</span></div>
