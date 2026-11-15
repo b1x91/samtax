@@ -129,9 +129,12 @@ th.n{ text-align:right; }
 .news .nm{ font-size:11.5px; color:var(--txt-3); font-family:'DejaVu Sans Mono',monospace; }
 
 /* question vs answer distinction */
-.q-card{ background:#FFFFFF; border:1px solid #DDD6C6; border-left:4px solid var(--ink); padding:24px 26px 22px; display:flex; flex-direction:column; gap:14px; }
+.q-card{ background:#FFFFFF; border:1px solid #DDD6C6; border-left:5px solid var(--ink); padding:32px 34px 30px; display:flex; flex-direction:column; gap:20px; }
+.q-card .qtitle{ font-size:21px; font-weight:600; color:var(--ink); line-height:1.4; padding:2px 0; }
+.q-card .qbody{ font-size:14.5px; color:var(--txt-2); line-height:1.75; }
+.qact{ display:flex; align-items:center; gap:10px; border-top:1px solid var(--line); padding:20px 0 0 0; margin-top:4px; }
 .who{ display:flex; align-items:center; gap:10px; }
-.a-card{ background:#FAF8F3; border:1px solid #E7E3D9; border-left:4px solid #C7C0AE; padding:22px 26px 20px; display:flex; flex-direction:column; gap:13px; }
+.a-card{ background:#FAF8F3; border:1px solid #E7E3D9; border-left:3px solid #C7C0AE; padding:16px 22px 15px; display:flex; flex-direction:column; gap:10px; }
 .a-card.best{ border-left-color:var(--acc); background:#FFFCF8; }
 .a-lab{ font-size:11.5px; font-weight:700; color:#8C8575; letter-spacing:0.06em; }
 .src{ border:1px solid #DFD8C7; background:#F7F3E9; padding:10px 13px; display:flex; gap:11px; align-items:baseline; }
@@ -141,8 +144,8 @@ th.n{ text-align:right; }
 .subs{ display:inline-flex; align-items:center; gap:7px; height:32px; padding:0 14px; border-radius:16px; background:var(--ink); color:#fff; font-size:13px; font-weight:600; }
 .subs .dot{ width:7px; height:7px; border-radius:50%; background:#6FD39A; }
 .subs.off{ background:transparent; color:var(--txt-2); border:1px solid var(--line-2); font-weight:400; }
-.subs.sm{ height:18px; padding:0 9px; border-radius:9px; font-size:10px; font-weight:700; gap:5px; letter-spacing:0.03em; }
-.subs.sm .dot{ width:5px; height:5px; }
+.subs.sm{ height:27px; padding:0 14px; border-radius:14px; font-size:12.5px; font-weight:600; gap:7px; }
+.subs.sm .dot{ width:6px; height:6px; }
 
 /* score + rank delta */
 .sc{ font-family:'DejaVu Sans Mono',monospace; font-weight:700; }
