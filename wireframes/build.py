@@ -294,7 +294,9 @@ ROWS = [(1,'푸른고래58','SA','세무조정 · TP','up',1,86,41,412,'2,418'),
         (9,'노란수달13','M','부가가치세','up',1,39,18,197,'1,274'),
         (10,'푸른매21','SA','국제조세','dn',2,36,11,184,'1,205'),
         (11,'회색늑대64','S','세무조정','up',9,34,15,172,'1,147'),
-        (12,'붉은두루미05','SM','상속 · 증여','dn',1,31,9,158,'1,081')]
+        (12,'붉은두루미05','SM','상속 · 증여','dn',1,31,9,158,'1,081'),
+        (13,'흰여우48','M','세무조사지원','up',3,29,12,151,'1,034'),
+        (14,'푸른올빼미17','SA','세무진단','sm',0,27,10,144,'0,992'.replace('0,','')) ]
 
 def delta(kind, n):
     if kind == 'sm':
@@ -371,7 +373,6 @@ w('mypage.html', top(SEARCH, R_USER, logo=WM) + '\n<div class="shell">\n' + nav(
 <main class="main">
   <section class="card acc">
     <div class="meta">
-      <span class="av" style="width:44px; height:44px; border-radius:50%; background:#DDD9CE; display:inline-block;"></span>
       <div style="display:flex; flex-direction:column; gap:3px;">
         <span class="hdl"><b style="font-size:18px;">푸른고래58</b><span class="rk me">SA</span></span>
         <span class="mt">[본인 성명] · [사번] — 본인에게만 보입니다</span>
